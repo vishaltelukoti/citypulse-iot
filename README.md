@@ -217,6 +217,6 @@ This project demonstrates:
 
 ## Author
 
-**Vishal**
+**Telukoti Vishal**
 
 *Capstone Project:* **CityPulse – IoT Sensor Aggregation Mesh**
