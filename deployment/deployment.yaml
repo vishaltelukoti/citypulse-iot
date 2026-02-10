@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: citypulse
+  labels:
+    app: citypulse
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: citypulse
+  template:
+    metadata:
+      labels:
+        app: citypulse
+    spec:
+      containers:
+        - name: citypulse
+          image: citypulse_iot:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
+          env:
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
