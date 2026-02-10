@@ -215,7 +215,8 @@ This project demonstrates:
 * Containerized and Kubernetes-based deployment
 
 
-##  Author
+## Author
 
 **Vishal**
-Capstone Project: *CityPulse – IoT Sensor Aggregation Mesh*
+
+*Capstone Project:* **CityPulse – IoT Sensor Aggregation Mesh**
